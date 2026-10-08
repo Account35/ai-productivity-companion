@@ -1,54 +1,111 @@
-# AI Productivity Companion
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS web app called AI Workplace Productivity Assistant.
+## Project Overview
 
-Core Features
+**AI Workplace Productivity Assistant** is a modern web application designed to help professionals improve workplace productivity using AI.
 
-Smart Email Generator: Generate AI-powered professional emails with Formal, Friendly, and Persuasive tones.
+The application provides AI-powered tools for generating professional emails, researching and summarising information, and interacting with an AI workplace assistant. It is designed with a clean SaaS-style interface and can be accessed directly without registration or login.
 
-AI Research Assistant: Summarise topics, articles, or URLs and provide AI-generated insights and recommendations.
+## Features Implemented
 
-AI Workplace Chatbot: Interactive assistant that responds to user prompts with useful AI-generated answers.
+### Smart Email Generator
 
-Requirements
+* Generate professional workplace emails using AI.
+* Supports multiple writing tones:
 
-Dashboard layout with sidebar navigation.
+  * Formal
+  * Friendly
+  * Persuasive
+* Provides editable AI-generated responses.
 
-Responsive for desktop and mobile.
+### AI Research Assistant
 
-Clear input and output sections.
+* Summarise topics, articles, and URLs.
+* Generate AI-powered insights.
+* Provide recommendations based on the research request.
 
-All responses must be genuinely AI-generated, not hardcoded or generic.
+### AI Workplace Chatbot
 
-Clean, modern, professional SaaS UI.
+* Interactive AI workplace assistant.
+* Responds to user prompts using AI.
+* Designed to assist with everyday workplace-related tasks and questions.
 
-Use light grey and dark as the main colours.
+### User Interface
 
-Include a Responsible AI disclaimer.
+* Modern SaaS dashboard layout.
+* Sidebar navigation.
+* Responsive design for desktop and mobile devices.
+* Light grey and dark professional colour scheme.
+* Clear input and output sections.
+* Responsible AI disclaimer.
+* No registration or sign-in required.
 
-No backend, database, authentication, registration, or login.
+## Technologies and Tools Used
 
-Users must access the app directly without providing personal information.
+* **React** – Frontend application development.
+* **TypeScript** – Type-safe application development.
+* **Vite** – Development server and build tool.
+* **Tailwind CSS** – Responsive styling and UI design.
+* **AI API** – Powers AI-generated responses.
+* **Lovable** – Application development and prototyping.
+* **GitHub** – Source code management and version control.
 
-Keep the implementation simple and lightweight for a Lovable Free account with limited credits.
+## Setup Instructions
 
-This project was built with [Lovable](https://lovable.dev).
+### 1. Clone the Repository
 
-## Build with Lovable
+```bash
+git clone https://github.com/your-username/ai-workplace-productivity-assistant.git
+```
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6f6b7a72-a66c-47f1-8119-26dd1d1ec534).
+### 2. Navigate to the Project
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+```bash
+cd ai-workplace-productivity-assistant
+```
 
-## Development
+### 3. Install Dependencies
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+```bash
+npm install
+```
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### 4. Configure AI API
+
+If the project requires an AI API key, create a `.env` file in the project root and add the required API configuration.
+
+Example:
+
+```env
+VITE_AI_API_KEY=your_api_key_here
+```
+
+**Do not commit API keys or other sensitive credentials to GitHub.**
+
+### 5. Start the Development Server
+
+```bash
 npm run dev
 ```
+
+Open the local development URL provided by Vite in your browser.
+
+### 6. Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated in the project's build directory.
+
+## Project Purpose
+
+This project demonstrates how AI can be integrated into practical workplace productivity tools, helping professionals reduce repetitive tasks and improve communication, research, and everyday work.
+
+## Responsible AI
+
+The application includes a Responsible AI disclaimer reminding users to review AI-generated content before using it for professional decisions or communication.
+
+## Author
+
+**Lwando Ntlemeza**
